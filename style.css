@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapers.com/images/featured/funny-9ngi51dd49q4q24i.jpg");
+    /* fill-opacity: px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 60%;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    color: black;
+    padding: 30px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/8/384/desktop-wallpaper-fun-art-funny-jokes-humor-fun-art.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.container p{
+    font-size: 1.1rem;
+}
+
+.container h1{
+    font-size: 2rem;
+}
